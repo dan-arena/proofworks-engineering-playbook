@@ -30,7 +30,7 @@ public static class SlidingWindowExtensions
     /// The longest substring that contains no repeating characters.
     /// Returns an empty string if the input is null or empty.
     /// </returns>
-     public static string LongestSubstringWithoutRepeatingCharacters(this string input)
+     public static string LongestSubstringWithoutRepeatingCharacters(this string? input)
     {
         if (string.IsNullOrEmpty(input))
             return string.Empty;
