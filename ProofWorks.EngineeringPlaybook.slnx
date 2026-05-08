@@ -1,4 +1,6 @@
 <Solution>
   <Project Path="ProofWorks.EngineeringPlaybook.Strings.Tests/ProofWorks.EngineeringPlaybook.Strings.Tests.csproj" />
   <Project Path="ProofWorks.EngineeringPlaybook.Strings/ProofWorks.EngineeringPlaybook.Strings.csproj" />
+  <Project Path="ProofWorks.EngineeringPlaybook.TimeSeries.Tests/ProofWorks.EngineeringPlaybook.TimeSeries.Tests.csproj" />
+  <Project Path="ProofWorks.EngineeringPlaybook.TimeSeries/ProofWorks.EngineeringPlaybook.TimeSeries.csproj" />
 </Solution>
