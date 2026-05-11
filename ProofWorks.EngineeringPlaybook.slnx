@@ -1,6 +1,10 @@
 <Solution>
-  <Project Path="Proofworks,EngineeringPlaybook.Collections.Tests/Proofworks,EngineeringPlaybook.Collections.Tests.csproj" Id="2a92ea38-0ef9-478a-b62c-dc086c0945a7" />
-  <Project Path="ProofWorks.EngineeringPlaybook.Collections/ProofWorks.EngineeringPlaybook.Collections.csproj" Id="034cc6a4-0e5e-4062-b3b4-fcfb8347a0d4" />
+  <Project Path="Proofworks,EngineeringPlaybook.Collections.Tests/Proofworks,EngineeringPlaybook.Collections.Tests.csproj" Id="2a92ea38-0ef9-478a-b62c-dc086c0945a7">
+    <Build Solution="Debug|*" Project="false" />
+  </Project>
+  <Project Path="ProofWorks.EngineeringPlaybook.Collections/ProofWorks.EngineeringPlaybook.Collections.csproj" Id="034cc6a4-0e5e-4062-b3b4-fcfb8347a0d4">
+    <Build Solution="Debug|*" Project="false" />
+  </Project>
   <Project Path="ProofWorks.EngineeringPlaybook.Strings.Tests/ProofWorks.EngineeringPlaybook.Strings.Tests.csproj" />
   <Project Path="ProofWorks.EngineeringPlaybook.Strings/ProofWorks.EngineeringPlaybook.Strings.csproj" />
   <Project Path="ProofWorks.EngineeringPlaybook.TimeSeries.Tests/ProofWorks.EngineeringPlaybook.TimeSeries.Tests.csproj" />
