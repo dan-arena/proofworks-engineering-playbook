@@ -1,21 +1,26 @@
-# Longest Non-Repeating Substring (Sliding Window)
+# Longest Substring Without Repeating Characters
 
 ## Problem
+
 Find the longest substring in a string that contains no repeating characters.
 
 Examples:
-- "abcabcbb" => "abc"
-- "abcabcbbxyz" => "bxyz"
+- `"abcabcbb"` → `"abc"`
+- `"abcabcbbxyz"` → `"bxyz"`
 
 ## Concepts
-- Sliding window
+
+- sliding window
 - HashSet<char>
-- Two-pointer technique
+- two-pointer technique
+- rolling state management
 
-## Real World Situation
-    Efficiently track a changing subset without recalculating everything.
+## Real-World Situation
 
-## Real World Applications
+Efficiently maintain a changing valid subset without recalculating the full data set repeatedly.
+
+## Real-World Applications
+
 - fraud detection
 - API throttling
 - observability windows
@@ -23,6 +28,12 @@ Examples:
 - login security monitoring
 - rolling averages
 - AI chunk processing
+- session/state analysis
 
 ## DotNetFiddle
-[https://dotnetfiddle.net/Bfmv96]
+
+https://dotnetfiddle.net/Bfmv96
+
+## Related Repository Implementations
+
+- `ProofWorks.EngineeringPlaybook.Strings`
